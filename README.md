@@ -2,7 +2,7 @@
 
 A Windows-friendly Python/Tkinter tool for repairing corrupted future-dated file timestamps by reading internal Office/PDF document metadata and applying the correct document creation date back to the file system.
 
-This project was created for large document archives such as `D:\PharmSolu`, where files may show incorrect future dates in Windows Explorer, for example `2029`, `2062`, or other invalid timestamps.
+This project was created for large document archives such as `D:\Data`, where files may show incorrect future dates in Windows Explorer, for example `2029`, `2062`, or other invalid timestamps.
 
 ---
 
@@ -10,7 +10,7 @@ This project was created for large document archives such as `D:\PharmSolu`, whe
 
 - Paste one or many file paths directly into the GUI.
 - Add files or folders using file/folder picker buttons.
-- Recursively scan folders such as `D:\PharmSolu`.
+- Recursively scan folders such as `D:\Data`.
 - Filter and scan only files whose file-system date is greater than the current date.
 - Read internal metadata from Office and PDF files.
 - Prefer the document **Content created** date.
@@ -115,9 +115,9 @@ Supported examples:
 
 ---
 
-## Recommended Settings for PharmSolu Repair
+## Recommended Settings for Data Repair
 
-For large archives such as `D:\PharmSolu`, use the following settings:
+For large archives such as `D:\Data`, use the following settings:
 
 ```text
 Scan folders recursively: ON
@@ -226,7 +226,7 @@ Paste one file or many files into the GUI:
 You can also paste a folder path:
 
 ```text
-"D:\PharmSolu"
+"D:\Data"
 ```
 
 Then click:
@@ -438,7 +438,7 @@ This tool changes file-system timestamps. Always scan and review the CSV log bef
 
 ## Author / Project
 
-PharmSolu Timestamp Repair Utility  
+Data Timestamp Repair Utility  
 NGHIEN CUU THUOC // RnD PHARMA PLUS  
 Website: https://www.nghiencuuthuoc.com  
 PharmApp Demo: https://www.pharmapp.dev
