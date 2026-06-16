@@ -5,7 +5,7 @@
 Công cụ được thiết kế cho các thư mục dữ liệu lớn như:
 
 ```text
-D:\PharmSolu
+D:\Data
 ```
 
 Trường hợp thường gặp là file trong Windows Explorer hiển thị ngày tương lai như `2029`, `2062` hoặc các mốc thời gian không hợp lý.
@@ -139,9 +139,9 @@ Ví dụ được hỗ trợ:
 
 ---
 
-## Thiết lập khuyến nghị cho PharmSolu
+## Thiết lập khuyến nghị cho Data
 
-Khi sửa dữ liệu trong thư mục lớn như `D:\PharmSolu`, nên dùng cấu hình sau:
+Khi sửa dữ liệu trong thư mục lớn như `D:\Data`, nên dùng cấu hình sau:
 
 ```text
 Scan folders recursively: ON
@@ -251,15 +251,14 @@ python office_metadata_timestamp_gui_v3.py
 Paste một hoặc nhiều đường dẫn vào GUI:
 
 ```text
-"D:\PharmSolu\SERVERCS15-GUEST\Kho Nguyen Lieu Bao Bi\Thien\Doc1.docx"
-"D:\PharmSolu\bt_loan\Ploan\HD\hdSAGOPHA.doc"
-"D:\PharmSolu\SERVERCS15-GUEST\Phong Nghien Cuu Phat Trien\THAO NCPT\GTCN du an san xuat san pham cong nghe 17.05.2016 .doc"
+"D:\Data\Doc1.docx"
+
 ```
 
 Có thể paste trực tiếp cả thư mục:
 
 ```text
-"D:\PharmSolu"
+"D:\Data"
 ```
 
 Sau đó bấm:
@@ -502,7 +501,7 @@ Công cụ này thay đổi timestamp của file. Hãy luôn scan và xem log CS
 
 ## Tác giả / Dự án
 
-**PharmSolu Timestamp Repair Utility**  
+**Data Timestamp Repair Utility**  
 NGHIEN CUU THUOC // RnD PHARMA PLUS  
 
 Website chính thức:
