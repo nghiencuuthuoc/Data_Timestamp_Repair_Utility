@@ -220,9 +220,7 @@ python office_metadata_timestamp_gui_v3.py
 Paste one file or many files into the GUI:
 
 ```text
-"D:\PharmSolu\SERVERCS15-GUEST\Kho Nguyen Lieu Bao Bi\Thien\Doc1.docx"
-"D:\PharmSolu\bt_loan\Ploan\HD\hdSAGOPHA.doc"
-"D:\PharmSolu\SERVERCS15-GUEST\Phong Nghien Cuu Phat Trien\THAO NCPT\GTCN du an san xuat san pham cong nghe 17.05.2016 .doc"
+"D:\Doc1.docx"
 ```
 
 You can also paste a folder path:
